@@ -9,3 +9,7 @@ document.querySelectorAll('.dropdown-btn').forEach(button => {
         }
     });
 });
+function toggleSidebar() {
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.classList.toggle('active');
+}
