@@ -7,5 +7,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Кнопка для открытия меню на мобильных устройствах -->
-    <div class="
+    <div class="container">
+        <nav class="sidebar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li>
+                    <a href="javascript:void(0)" class="dropdown-btn">Alignment</a>
+                    <ul class="dropdown-container">
+                        <li><a href="#msa">MSA</a></li>
+                        <li><a href="#snp">SNP calling</a></li>
+                        <li><a href="#sv">SV calling</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" class="dropdown-btn">Visualisation</a>
+                    <ul class="dropdown-container">
+                        <li><a href="#dotplot">dotplot</a></li>
+                        <li><a href="#msaplot">msaplot</a></li>
+                        <li><a href="#orfFinder">orfFinder</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <h1>Welcome to the Content Section</h1>
+            <p>Here, content will appear based on your navigation selection.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
