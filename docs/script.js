@@ -3,13 +3,4 @@ document.querySelectorAll('.dropdown-btn').forEach(button => {
         this.classList.toggle('active');  // Добавляем или убираем класс active для поворота галочки
         let dropdownContent = this.nextElementSibling;
         if (dropdownContent.style.display === "block") {
-            dropdownContent.style.display = "none"; // Скрываем подменю
-        } else {
-            dropdownContent.style.display = "block"; // Показываем подменю
-        }
-    });
-});
-function toggleSidebar() {
-    const sidebar = document.querySelector('.sidebar');
-    sidebar.classList.toggle('active');
-}
+            dropdownContent.style.display 
