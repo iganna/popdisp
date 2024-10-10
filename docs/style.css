@@ -2,7 +2,7 @@
     --main-bg-color: #243642;    /* Основной цвет фона */
     --submenu-bg-color: #135D66; /* Цвет фона подменю */
     --text-color: white;         /* Основной цвет текста */
-    --hover-text-color: #FEAE6F; /* Цвет текста при наведении */
+    --hover-text-color: #FF9EAA; /* Цвет текста при наведении */
 }
 
 * {
@@ -57,7 +57,8 @@ body {
 }
 
 .dropdown-container a {
-    padding: 10px 20px; /* Внутренний отступ для элементов подменю */
+    padding: 10px;
+    margin-left: 20px; /* Добавляем явный отступ слева для пунктов подменю */
     color: var(--text-color);
     text-decoration: none;
     display: block;
