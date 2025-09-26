@@ -12,7 +12,7 @@ If you use **popdisp** in your work, please cite:
 
 The **popdisp** model is Bayesian, with the following structure:
 
-![Bayesian model](data/images/popdisp_bayesian.pdf)
+![Bayesian model](data/images/popdisp_bayesian.png)
 
 - \( f_A \) — characteristic allele frequency of the population  
 - \( n_i \) — number of haplotypes  
