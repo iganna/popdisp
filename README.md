@@ -23,10 +23,8 @@ The **popdisp** model is Bayesian, with the following structure:
 - f_A = ilr^{-1}(x_A) — inverse isometric log-ratio transform  
 - x_i = ilr(f_i) — isometric log-ratio transform  
 
-
-## Flowchart
-
-The following flowchart illustrates the process:
+### Flowchart
+The following flowchart illustrates the work of the package:
 
 ![Bayesian model](data/images/popdisp_scheme.png)
 
@@ -42,6 +40,7 @@ The **popdisp** model requires two main input components:
 
 Both components must be provided together, as they jointly describe the geographic and genetic structure used by the model.
 
+### Chickpea data
 This repository includes the chickpea datasets used in the article mentioned above:  
 - `data/cov_mx`  
 - `data/samples`
