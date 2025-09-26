@@ -24,6 +24,12 @@ The **popdisp** model is Bayesian, with the following structure:
 - x_i = ilr(f_i) — isometric log-ratio transform  
 
 
+## Flowchart
+
+The following flowchart illustrates the process:
+
+![Bayesian model](data/images/popdisp_scheme.png)
+
 ## Input data
 
 The **popdisp** model requires two main input components:
@@ -67,13 +73,17 @@ opt_hist.optimise(path_res, n_thr=30)
 # n_thr – number of threads to use
 ```
 
+## Pipeline for reproducing the chickpea results
 
-## Pipeline (running the test)
+If you want to reproduce the results of the chickpea study reported in щгк зфзук, please run the following scripts provided in this repository:
 
-To demonstrate the test, please run:
-* `estim_routes.py` to get estimates of allele frequencies
-* `get_stat.py` to get statisticks for MCMC
+```bash
+# 1. Estimate allele frequencies
+python estim_routes.py
 
+# 2. Collect MCMC statistics
+python get_stat.py
+```
 
 ## Requirements
 
