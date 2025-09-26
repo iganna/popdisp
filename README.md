@@ -14,14 +14,14 @@ The **popdisp** model is Bayesian, with the following structure:
 
 ![Bayesian model](data/images/popdisp_bayesian1.png)
 
-- \( f_A \) — characteristic allele frequency of the population  
-- \( n_i \) — number of haplotypes  
-- \( y_i \) — number of alternative alleles  
-- \( f_i \) — frequency of the alternative allele  
-- \( V \) — covariance matrix  
-- \( s \) — scale parameter  
-- \( f_A = ilr^{-1}(x_A) \) — inverse isometric log-ratio transform  
-- \( x_i = ilr(f_i) \) — isometric log-ratio transform  
+- f_A — characteristic allele frequency of the population  
+- n_i — number of haplotypes  
+- y_i — number of alternative alleles  
+- f_i — frequency of the alternative allele  
+- V — covariance matrix  
+- s — scale parameter  
+- f_A = ilr^{-1}(x_A) — inverse isometric log-ratio transform  
+- x_i = ilr(f_i) — isometric log-ratio transform  
 
 
 ## Input data
